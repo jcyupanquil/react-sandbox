@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+// import UseRefExample1 from './components/UseRefExample1';
+// import UseRefPreviousState from './components/UseRefPreviousState';
+// import UseRefMemoryLeak from './components/UseRefMemoryLeak';
+// import UseMemoExample from './components/UseMemoExample';
+// import UseCallbackExample from './components/UseCallbackExample';
+// import CustomUseFetchHookExample from './components/CustomUseFetchHookExample';
+import CustomUseLocalStorageHookExample from './components/CustomUseLocalStorageHookExample';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-5">
+      {/* <UseRefExample1></UseRefExample1> */}
+      {/* <UseRefPreviousState></UseRefPreviousState> */}
+      {/* <UseRefMemoryLeak></UseRefMemoryLeak> */}
+      {/* <UseMemoExample></UseMemoExample> */}
+      {/* <UseCallbackExample></UseCallbackExample> */}
+      {/* <CustomUseFetchHookExample></CustomUseFetchHookExample> */}
+      <CustomUseLocalStorageHookExample></CustomUseLocalStorageHookExample>
     </div>
   );
 }
